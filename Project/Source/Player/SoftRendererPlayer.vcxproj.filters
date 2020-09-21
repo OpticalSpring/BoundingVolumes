@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Precompiled.cpp" />
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\SoftRenderer.cpp" />
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\SoftRenderer2D.cpp" />
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\WindowsApp.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Precompiled.h" />
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\SoftRenderer.h" />
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\Res\resource.h">
+      <Filter>Private\Windows\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\WindowsPlayer.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\WindowsUtil.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\Res\player.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+    <None Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\Res\player_small.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Player\Private\Windows\Res\player.rc">
+      <Filter>Private\Windows\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{A57FC11D-53BF-31D4-AEF1-BF24760F989C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{280AC189-C171-3253-8974-B49CFF8487BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows\Res">
+      <UniqueIdentifier>{2E0D6720-649E-39F1-83DF-250167B8F757}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Precompiled.cpp" />
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Private\Windows\WindowsGDI.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Private\Windows\WindowsRSI.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Precompiled.h" />
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Public\RendererHeaders.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Public\RenderingSoftwareInterface.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Public\Windows\WindowsGDI.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\C Project\Engine\3_circlebounds_practice\Source\Runtime\Renderer\Public\Windows\WindowsRSI.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{A57FC11D-53BF-31D4-AEF1-BF24760F989C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{280AC189-C171-3253-8974-B49CFF8487BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{981B9EA4-D90C-3649-BEB9-9D94B73F99C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Windows">
+      <UniqueIdentifier>{33155319-3747-320C-95C4-B92D7815B275}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
